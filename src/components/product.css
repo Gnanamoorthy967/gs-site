@@ -1,0 +1,109 @@
+#searchInput{
+    /* display: flex; */
+    margin: 15px;
+
+}
+.loader{
+  position: relative;
+   display: block;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.products{
+  /* background-color: antiquewhite; */
+  background: linear-gradient(0deg,rgba(255,180,0,.5) 0,rgba(255,180,0,0) 100%);
+}
+/* body{
+  align-items: center;
+  text-align: center;
+} */
+/* style={{ display: 'flex', flexWrap: 'wrap' }} */
+/* .productcontainer{
+    display:  inline-block;
+
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+} */
+.h1{
+  font-size: 24px;
+  text-decoration: underline double;
+  text-decoration-color: red;
+}
+.image{
+    width: 200px;
+    height: 300px;
+    object-fit: contain;
+}
+
+div.polaroid {
+    width:300px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    overflow: hidden;
+    display: inline-block;
+    grid-template-columns: auto auto auto;
+    border-radius: 10px;
+    
+  }
+  .polaroid:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(2, 194, 252, 0.808);
+  }
+  
+  div.productcontainer {
+    text-align: center;
+    padding: 10px 20px;
+    /* display: inline-block; */
+    /* grid-template-columns: auto auto auto; */
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  /* background-color: antiquewhite; */
+  }
+  .polaroid{
+    text-align: center;
+    width: 100px;
+    margin: 1rem;
+  }
+  .producthead{
+    text-align: center;
+      /* display: grid; */
+  }
+
+
+
+
+#scrollToTopBtn {
+  position: fixed;
+  bottom: 50px;
+  right: 20px;
+  z-index: 99;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#scrollToTopBtn:hover {
+  background-color: #0056b3;
+}
+.buynowbtn{
+  padding: 2px;
+  margin: 10px;
+  border-radius: 10px;
+  border: solid black 2px;
+  background-color: cyan;
+}
+.buynowbtn:hover{
+  background-color: rgb(255, 0, 64);
+}
+.buynowbtn:checked{
+  background-color: red;
+}
